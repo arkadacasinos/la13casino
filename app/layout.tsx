@@ -16,7 +16,10 @@ export const metadata: Metadata = {
 export const viewport: Viewport = { themeColor: '#101111', colorScheme: 'dark', width: 'device-width', initialScale: 1 }
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="ru" className="bg-background"><head><meta name="yandex-verification" content="" />
+  return <html lang="ru" className="bg-background">
+    <head>
+      <meta name="yandex-verification" content="d5713184ba435aeb" />
+      <meta name="yandex-verification" content="" />
     <script
   dangerouslySetInnerHTML={{
     __html: `
